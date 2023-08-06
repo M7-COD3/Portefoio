@@ -1,0 +1,660 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#bodes {
+    background-color: rgb(10, 15, 17);
+    color: white;
+    font-family:monospace;
+}
+
+.navBar {
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.divContainer {
+    max-width: 680px;
+    margin: 0px auto;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.062);
+}
+
+.logoContainer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 5px;
+}
+
+nav ul li a {
+    color: rgba(231, 231, 231, 0.808);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color: rgba(255, 255, 255, 0.993);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.active {
+    border-bottom: 2px solid rgb(0, 255, 255);
+    padding-bottom: 3px;
+}
+
+.spanLinks {
+    font-size: 25px;
+    color: rgb(0, 119, 255);
+    font-weight: 700;
+}
+
+.myFoto {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.fotos {
+    max-width: 680px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    text-align: center;
+    transition: 2s;
+}
+
+.fotos img {
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+    background-size:cover;
+    background-position: center;
+    border: 3px solid rgba(231, 231, 231, 0.61);
+    cursor: pointer;
+}
+
+
+.fotos span.eu{
+    color: rgba(199, 199, 199, 0.699);
+    font-weight: 600;
+}
+
+.myInfo {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    width: 310px;
+    margin: 0px auto;
+    background: linear-gradient(95deg, rgb(255, 255, 255), rgba(10, 15, 17, 0.5));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+}
+
+.myCode_ {
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(206, 206, 206, 0.329);
+    background-color: rgb(12, 18, 20);
+    border-left: 2px solid rgb(36, 47, 51);
+    border-right: 2px solid rgb(36, 47, 51);
+    cursor: pointer;
+}
+
+.divAllTec {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.barraDeTecnologia {
+    background-color: rgb(14, 20, 22);
+    max-width: 780px;
+    margin: 0px auto;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.local {
+    width: 120px;
+    text-align: center;
+    padding: 10px 5px;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    border-left: 1px solid rgb(36, 47, 51);
+    border-right: 1px solid rgb(36, 47, 51);
+}
+
+.img_style {
+    width: 30px;
+}
+
+.tecnologiasNome {
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: arial;
+    color: rgba(194, 194, 194, 0.205);
+    top: 5px;
+}
+
+.paragrafo {
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    color: rgba(175, 175, 175, 0.712);
+}
+
+.paragrafo:hover{
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+    color: rgba(175, 175, 175, 0.979);
+}
+
+.dark {
+    width: 30px;
+    cursor: pointer;
+}
+
+.light {
+    width: 30px;
+    cursor: pointer;
+}
+
+.dark {
+    display: none;
+}
+
+.myfavority {
+    position: relative;
+    width: 100%;
+    color: gray;
+    bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background: linear-gradient(95deg, rgb(255, 255, 255), rgba(10, 15, 17, 0.5));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.conteudos {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    bottom: 20px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.ContantCont {
+    padding: 10px 0px;
+    max-width: 780px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.MyProjects {
+    background: linear-gradient(95deg, rgb(255, 255, 255), rgba(10, 15, 17, 0.068));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+}
+#localProjects {
+    background-color: rgb(14, 20, 22);
+    width: 166px;
+    border-radius: 3px;
+    padding: 15px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.062);
+}
+#localProjects1 {
+    background-color: rgb(14, 20, 22);
+    width: 166px;
+    border-radius: 3px;
+    padding: 15px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.062);
+}
+#localProjects2{
+    background-color: rgb(14, 20, 22);
+    width: 166px;
+    border-radius: 3px;
+    padding: 15px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.062);
+}
+#localProjects3 {
+    background-color: rgb(14, 20, 22);
+    width: 166px;
+    border-radius: 3px;
+    padding: 15px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.062);
+}
+
+
+.projectInfo {
+    text-align: left;
+    padding-left: 13px;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(180, 180, 180, 0.808);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.paragrafoInfo {
+    margin-top: 10px;
+    font-size: 9px;
+    text-align: left;
+    color: rgba(155, 155, 155, 0.562);
+}
+
+.imgProjects {
+    background-image: url("../img/2.png");
+    padding: 10px 5px;
+    text-align: left;
+    position: relative;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    bottom: 0px;
+}
+
+.styleB {
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    bottom: -10px;
+}
+
+.imgProjects1 {
+    background-image: url("../img/6.png");
+    padding: 10px 5px;
+    text-align: left;
+    position: relative;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    bottom: 0px;
+}
+.imgProjects2 {
+    background-image: url("../img/8.png");
+    padding: 10px 5px;
+    text-align: left;
+    position: relative;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    bottom: 0px;
+}
+.imgProjects3 {
+    background-image: url("../img/3.png");
+    padding: 10px 5px;
+    text-align: left;
+    position: relative;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    bottom: 0px;
+}
+
+.divTec {
+    background-color: rgb(19, 28, 34);
+    border-radius: 5px;
+    padding: 20px 0px;
+    z-index: 33333;
+}
+
+footer {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.RodaPe {
+    background-color: rgb(12, 18, 20);
+    max-width: 780px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.h1Style {
+    background: linear-gradient(95deg, rgb(255, 255, 255), rgba(10, 15, 17, 0.068));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#B {
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(206, 206, 206, 0.842);
+    background-color: rgb(12, 18, 20);
+    border: 1px solid rgb(36, 47, 51);
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.svgLinks {
+    display: none;
+}
+
+.myMobile {
+    display: none;
+}
+
+@media (max-width:360px){
+    div.barraDeTecnologia {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    p.paragrafo {
+        text-align: center;
+        margin-bottom: 10px;
+        transition: 1s;
+        color: white;
+    }
+    p.paragrafo:hover{
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        top: 10px;
+        color: rgba(245, 245, 245, 0.979);
+    }
+
+    div.local {
+        text-align: center;
+        padding: 10px 5px;
+        border: none;
+        cursor: pointer;
+        margin: 5px 0px;
+        background-color: rgba(8, 8, 8, 0.678);
+        border-radius: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:465px){
+
+    div.fotos img {
+        width: 100px;
+        border-radius: 100px;
+        height: 100px;
+        background-size:cover;
+        background-position: center;
+        border: 3px solid rgba(231, 231, 231, 0.61);
+        cursor: pointer;
+        margin: 0px auto;
+    }
+    div.myFoto {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    button.myCode_ {
+        margin-top: 50px;
+        width: 100%;
+        height: 40px;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        color: rgba(206, 206, 206, 0.329);
+        background-color: rgb(12, 18, 20);
+        border-left: 2px solid rgb(36, 47, 51);
+        border-right: 2px solid rgb(36, 47, 51);
+        cursor: pointer;
+    }
+
+    button#B {
+        margin-top: 50px;
+        width: 100%;
+        height: 40px;
+        border-top: none;
+        border-bottom: none;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 14px;
+        color: rgba(206, 206, 206, 0.842);
+        background-color: rgb(12, 18, 20);
+        border: 1px solid rgb(36, 47, 51);
+        cursor: pointer;
+        transition: 1s;
+        margin-bottom: 10px;
+    }
+
+    div.RodaPe {
+        background-color: rgb(12, 18, 20);
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        padding: 10px 10px;
+    }
+    span.h1Style {
+        background: linear-gradient(95deg, rgb(255, 255, 255), rgba(10, 15, 17, 0.068));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    div.ContantCont {
+        padding: 10px 0px;
+        width: 100%;
+        margin: 0px auto;
+        display: grid;
+        justify-content: space-around;
+        padding: 10px 10px;
+    }
+    
+    div#localProjects {
+        background-color: rgb(14, 20, 22);
+        width: 100%;
+        border-radius: 3px;
+        padding: 15px 10px;
+        border: 1px solid rgba(128, 128, 128, 0.062);
+        margin: 5px 0px;
+    }
+    div#localProjects1 {
+        background-color: rgb(14, 20, 22);
+        width: 100%;
+        border-radius: 3px;
+        padding: 15px 10px;
+        border: 1px solid rgba(128, 128, 128, 0.062);
+        margin: 5px 0px;
+    }
+    div#localProjects2 {
+        background-color: rgb(14, 20, 22);
+        width: 100%;
+        border-radius: 3px;
+        padding: 15px 10px;
+        border: 1px solid rgba(128, 128, 128, 0.062);
+        margin: 5px 0px;
+    }
+    div#localProjects3 {
+        background-color: rgb(14, 20, 22);
+        width: 100%;
+        border-radius: 3px;
+        padding: 15px 10px;
+        border: 1px solid rgba(128, 128, 128, 0.062);
+        margin: 5px 0px;
+    }
+
+    div.divAllTec {
+        width: 100%;
+    }
+    div.barraDeTecnologia {
+        background-color: rgb(14, 20, 22);
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 150px);
+        grid-template-rows: 160px, 160px;
+        padding: 10px 10px;
+        text-align: center;
+        justify-content: space-around;
+        transition: 2s;
+    }
+
+    div.local {
+        width: 150px;
+        text-align: left;
+        padding: 10px 5px;
+        border-top: none;
+        border-bottom: none;
+        cursor: pointer;
+        border-left: 1px solid rgb(36, 47, 51);
+        border-right: 1px solid rgb(36, 47, 51);
+        margin: 5px 0px;
+        transition: 1s;
+    }
+    p.paragrafo {
+        text-align: left;
+        margin-bottom: 10px;
+        transition: 1s;
+    }
+    p.paragrafo:hover{
+        text-align: left;
+        width: 100%;
+        font-size: 13px;
+        position: relative;
+        top: 10px;
+        color: rgba(175, 175, 175, 0.979);
+    }
+
+    h2.myInfo {
+        top: 20px;
+        width: 100%;
+        font-size: 10px;
+        background: linear-gradient(95deg, rgb(255, 255, 255), rgba(10, 15, 17, 0.5));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: rgb(255, 255, 255);
+        transition: 1s;
+    }
+
+    div.fotos {
+        width: 100%;
+        margin: 0px auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        transition: 1s;
+    }
+    
+    div.fotos span.eu{
+        color: rgba(199, 199, 199, 0.699);
+        font-weight: 600;
+        width: 100%;
+    }
+
+    div.myMobile {
+        display: block;
+    }
+    nav.desktop {
+        display: none;
+    }
+
+    div.divContainer {
+        max-width: 680px;
+        margin: 0px auto;
+        display: flex;
+        padding: 10px 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        border-bottom: 1px solid rgba(231, 231, 231, 0.062);
+    }
+
+    img.svgLinks {
+        display: block;
+        cursor: pointer;
+    }
+
+    nav.mobile {
+        display: none;
+        background-color: rgb(12, 18, 20);
+        width: 200px;
+        position: absolute;
+        float: right;
+        right: 20px;
+        top: 70px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+        padding: 20px 5px;
+    }
+
+    nav.mobile ul li {
+        width: 100%;
+    }
+}
+
+
+
